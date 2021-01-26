@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        #name{
+            text-align: center;
+            font-family: 'Do Hyeon', sans-serif;
+            font-size: 4rem;
+            background-color: beige;
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        .container{
+            display: flex;
+            background-color: bisque;
+            height: 60px;
+            margin-top: 100px
+        }
+        .introduce, .news, .play, .lesson, .contect{
+            border: 1px solid white;
+            flex-shrink: 1;
+            width: 500px;
+            padding: 15px;
+            text-align: center;
+            font-family: 'Do Hyeon', sans-serif;
+            font-size: 1.5rem;
+
+        }
+        footer{
+            background-color: beige;
+            position:fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 20px
+        }
+        .main{
+            border: 2px solid gray;
+            margin-top: 10px;
+            padding: 10px;
+            display: flex;
+            height: 300px;
+        }
+        .main>*{
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        nav, .inside{
+            border-right: 2px solid gray
+        }
+        header, #leftnews, #schedule{
+            font-size: 1.5rem;
+            padding: 15px;
+            font-family: 'Gothic A1', sans-serif;
+        }
+        nav{
+            flex-basis: 300px;
+            flex-shrink: 1;
+            
+        }
+        .inside{
+            flex-basis: 1300px;
+            flex-shrink: 2;
+        }
+        aside{
+            flex-basis: 300px;
+            flex-shrink: 1;
+        }
+        .ad{
+            margin-left: 10px;
+            font-family: 'Gothic A1', sans-serif;
+            padding-top: 160px;
+        }
+        #img{
+            width: 500px;
+            float: left;
+            padding-top: 30px;
+            padding-right: 30px;
+            padding-left: 60px
+        }
+    </style>
+</head>
+<body>
+    <div id="name">병닭's 재즈기타</div>
+   <div class="container">
+    <div class="introduce">소개</div>
+    <div class="news">공연소식</div>
+    <div class="play">연주영상</div>
+    <div class="lesson">레슨</div>
+    <div class="contect">문의</div>
+    </div>
+    <div class="main">
+        <nav>
+          <div id="leftnews">
+              HOT! 병닭연주
+          </div>
+           <li>
+            <a href="">just the two of us</a><br>
+           <li> <a href="">isn't she lovely</a><br>
+           <li> <a href="">feel like makin love</a>
+        </nav>
+        <div class="inside">
+            <header>
+                NEWS
+            </header>
+            <section>
+                <li>기타리스트 이정규 첫 뉴에이지 재즈 single 발매</li>
+                <li>신규 강좌시리즈 판매 개시
+                </li>
+                <li>1기 온라인 단체 스터디그룹 운영
+                </li>
+                <li>monthly jam 맴버 모집중</li>
+            </section>
+        </div>
+        <aside>
+            <div id="schedule">SCHEDULE</div>
+                <li>2월 엘범발매 기념 쇼케이스</li>
+        </aside>
+    </div>
+         <img id="img" src="IMG_5943.JPG" alt="">
+    <div class="ad">
+        <p>공연섭외, 레슨문의 : 010-4579-1318</p>
+        <p>카카오톡 : wkarb</p>
+    </div>
+</body>
+<footer>
+    <a href="http://youtube.com/wkarb">병닭's 재즈기타 유튜브</a>
+</footer>
+</html>
